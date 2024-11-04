@@ -1,0 +1,27 @@
+from django.contrib import admin
+from .models import *
+
+# Register models
+admin.site.register(AdminPrincipalRegistration)
+admin.site.register(Class)
+admin.site.register(StudentEnrollment)
+admin.site.register(StaffEnrollment)
+admin.site.register(StudentProfile)
+admin.site.register(StaffProfile)
+admin.site.register(Subject)
+admin.site.register(Parent)
+admin.site.register(StudentFee)
+admin.site.register(StaffSalary)
+admin.site.register(StudentAttendance)
+admin.site.register(StaffAttendance)
+admin.site.register(StudentFeedback)
+admin.site.register(StaffFeedback)
+admin.site.register(Event)
+admin.site.register(ExtracurricularActivity)
+admin.site.register(Notification)
+admin.site.register(ClassTimetable)
+admin.site.register(ExaminationTimetable)
+admin.site.register(CounselingSession)
+admin.site.register(BehaviorReport)
+admin.site.register(CertificateRequestsStudent)
+admin.site.register(ClasswiseFee)
